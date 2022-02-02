@@ -20,6 +20,5 @@
         var DATE = date.getDate();
         var MONTH = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
         var THAI_MONTH = MONTH[date.getMonth()];
-
         return THAI_MONTH
       }
