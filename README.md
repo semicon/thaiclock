@@ -17,8 +17,8 @@
 
       function thaiMonth() {
         var date = new Date();
-        var DATE = date.getDate();
+        var month = date.getMonth();
         var MONTH = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
-        var THAI_MONTH = MONTH[date.getMonth()];
+        var THAI_MONTH = MONTH[month];
         return THAI_MONTH
       }
