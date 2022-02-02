@@ -15,7 +15,7 @@
       
 # เดือนภาษาไทย
 
-      function getThaiMonth() {
+      function thaiMonth() {
         var date = new Date();
         var DATE = date.getDate();
         var MONTH = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
